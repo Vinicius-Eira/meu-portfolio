@@ -7,7 +7,7 @@ import { useTheme } from "next-themes";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-const containerVariants = {
+const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
         opacity: 1,
@@ -15,7 +15,7 @@ const containerVariants = {
     },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
         y: 0,
@@ -132,8 +132,8 @@ export const HeroSection = () => {
                             className="flex flex-col sm:flex-row gap-4 mb-8 justify-center lg:justify-start"
                         >
                             <motion.a
-                                href="/CV-ORIGINAL.pdf" 
-                                download="Vinicius-Eira-CV.pdf" 
+                                href="/CV-ORIGINAL.pdf"
+                                download="Vinicius-Eira-CV.pdf"
                                 whileHover={{ scale: 1.05, y: -3, boxShadow: "0px 8px 20px rgba(0,0,0,0.2)" }}
                                 whileTap={{ scale: 0.95 }}
                                 className="cursor-pointer bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300 inline-block text-center"
@@ -165,8 +165,8 @@ export const HeroSection = () => {
                                     rel="noopener noreferrer"
                                     whileHover={{ y: -3, scale: 1.1 }}
                                     className="p-3 rounded-full transition-colors 
-                             text-gray-600 hover:text-gray-900 hover:bg-gray-200
-                             dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-800"
+                            text-gray-600 hover:text-gray-900 hover:bg-gray-200
+                            dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-800"
                                 >
                                     <social.icon size={20} />
                                 </motion.a>
