@@ -131,14 +131,15 @@ export const HeroSection = () => {
                             variants={itemVariants}
                             className="flex flex-col sm:flex-row gap-4 mb-8 justify-center lg:justify-start"
                         >
-                            <motion.button
+                            <motion.a
+                                href="/CV-ORIGINAL.pdf" 
+                                download="Vinicius-Eira-CV.pdf" 
                                 whileHover={{ scale: 1.05, y: -3, boxShadow: "0px 8px 20px rgba(0,0,0,0.2)" }}
                                 whileTap={{ scale: 0.95 }}
-                                onClick={() => window.open("/CV-ORIGINAL.pdf", "_blank")}
-                                className="cursor-pointer bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300"
+                                className="cursor-pointer bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300 inline-block text-center"
                             >
                                 Ver Currículo
-                            </motion.button>
+                            </motion.a>
 
                             <motion.button
                                 whileHover={{ scale: 1.05, y: -3, boxShadow: "0px 8px 20px rgba(0,0,0,0.15)" }}
