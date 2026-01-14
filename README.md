@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Portfólio Profissional | Vinicius Eira
 
-## Getting Started
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
 
-First, run the development server:
+> **Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido para demonstrar minhas habilidades em desenvolvimento Full Stack, com foco em performance e experiência do usuário (UX).**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Sobre o Projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este projeto é uma aplicação web moderna construída com **Next.js (App Router)** e **TypeScript**. O objetivo principal é servir como um hub central para minha carreira, apresentando minha trajetória, projetos e facilitando o contato profissional.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O design segue uma estética minimalista e profissional, utilizando **Tailwind CSS** para estilização responsiva e **Framer Motion** para animações fluidas e interativas.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ✨ Destaques & Funcionalidades
 
-## Learn More
+- **🚀 Performance:** Construído com Next.js para renderização otimizada e carregamento rápido.
+- **🎨 UI/UX Moderna:** Design responsivo com efeitos de *glassmorphism* e transições suaves.
+- **📱 Responsividade Total:** Layout adaptável para dispositivos móveis, tablets e desktops.
+- **💬 Integração com WhatsApp:** Formulário de contato inteligente que redireciona a mensagem diretamente para a API do WhatsApp.
+- **✨ Animações:** Uso avançado de `framer-motion` para *scroll reveal* e micro-interações.
+- **🖥️ Favicon Dinâmico:** Geração de ícone via código (`ImageResponse`).
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tecnologias Utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+As principais ferramentas e bibliotecas que compõem este projeto:
 
-## Deploy on Vercel
+- **Core:** [Next.js](https://nextjs.org/) (React Framework)
+- **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
+- **Estilização:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animações:** [Framer Motion](https://www.framer.com/motion/)
+- **Ícones:** [Lucide React](https://lucide.dev/) & [React Icons](https://react-icons.github.io/react-icons/)
+- **Deploy:** [Vercel](https://vercel.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Como rodar localmente
+
+Siga os passos abaixo para clonar e executar o projeto na sua máquina:
+
+### Pré-requisitos
+Certifique-se de ter o **Node.js** instalado em sua máquina.
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/Vinicius-Eira/portfolio-next.git
