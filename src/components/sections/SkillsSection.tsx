@@ -8,17 +8,14 @@ import {
     SiTypescript,
     SiTailwindcss,
     SiNodedotjs,
-    SiPython,
     SiSpring,
     SiPostgresql,
+    SiExpress,
     SiDocker,
     SiGit,
-    SiFigma,
-    SiLinux,
     SiJavascript,
     SiPrisma,
-    SiMongodb,
-    SiGraphql
+    SiMongodb
 } from "react-icons/si";
 import { FaJava, FaCode } from "react-icons/fa";
 
