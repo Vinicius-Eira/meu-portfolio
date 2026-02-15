@@ -31,8 +31,6 @@ const SKILLS = [
             { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
             { name: "Java", icon: FaJava, color: "#007396" },
             { name: "Spring", icon: SiSpring, color: "#6DB33F" },
-            { name: "Python", icon: SiPython, color: "#3776AB" },
-            { name: "GraphQL", icon: SiGraphql, color: "#E10098" },
         ],
     },
     {
@@ -55,7 +53,7 @@ const SKILLS = [
             { name: "Next.js", icon: SiNextdotjs, color: "#ffffff" },
             { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
             { name: "Tailwind", icon: SiTailwindcss, color: "#38B2AC" },
-            { name: "Figma", icon: SiFigma, color: "#F24E1E" },
+            { name: "Express", icon: SiExpress, color: "#ffffff" },
             { name: "JavaScript", icon: SiJavascript, color: "#f2cb1eff"},
         ],
     },
