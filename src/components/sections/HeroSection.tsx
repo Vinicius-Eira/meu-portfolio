@@ -101,7 +101,7 @@ export const HeroSection = () => {
                             variants={textVariants}
                             className="text-sm uppercase tracking-widest mb-4 text-gray-600 dark:text-gray-500"
                         >
-                            BACKEND DEVELOPER JÚNIOR
+                           Software Developer
                         </motion.h2>
 
                         <motion.h1
