@@ -111,6 +111,7 @@ export const HeroSection = () => {
                              <span className="text-gray-900 dark:text-white">
                                 Projetos orientados
                             </span>
+                            <br />
                             <span className="font-medium bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
                                à arquitetura organizada
                             </span>
