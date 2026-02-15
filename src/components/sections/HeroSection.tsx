@@ -108,8 +108,11 @@ export const HeroSection = () => {
                             variants={itemVariants}
                             className="text-4xl md:text-6xl font-light mb-6 leading-tight"
                         >
+                             <span className="text-gray-900 dark:text-white">
+                                Projetos orientados
+                            </span>
                             <span className="font-medium bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-                                Projetos orientados à arquitetura organizada
+                              à arquitetura organizada
                             </span>
                             <br />
                             <span className="text-gray-900 dark:text-white">
