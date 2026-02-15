@@ -101,7 +101,7 @@ export const HeroSection = () => {
                             variants={textVariants}
                             className="text-sm uppercase tracking-widest mb-4 text-gray-600 dark:text-gray-500"
                         >
-                           Software Developer
+                           Software Developer 
                         </motion.h2>
 
                         <motion.h1
@@ -109,14 +109,14 @@ export const HeroSection = () => {
                             className="text-4xl md:text-6xl font-light mb-6 leading-tight"
                         >
                             <span className="text-gray-900 dark:text-white">
-                                Desenvolvedor Backend{" "}
+                                SOFTWARE DEVELOPER | DESENVOLVIMENTO DE SISTEMAS E APIs{" "}
                             </span>
                             <span className="font-medium bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-                                focado em APIs
+                                Projetos orientados à arquitetura organizada
                             </span>
                             <br />
                             <span className="text-gray-900 dark:text-white">
-                                e regra de negócios
+                                e Integração de Sistemas
                             </span>
                         </motion.h1>
 
@@ -124,7 +124,7 @@ export const HeroSection = () => {
                             variants={itemVariants}
                             className="text-base md:text-lg mb-8 font-light leading-relaxed text-gray-600 dark:text-gray-400"
                         >
-                            Backends pensados para crescer com o produto
+                            Desenvolvimento de APIs, serviços e soluções pensadas para escalar com o negócio
                         </motion.p>
 
                         <motion.div
