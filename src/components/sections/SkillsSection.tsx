@@ -18,8 +18,7 @@ import {
     SiMongodb,
     SiDotnet,
     SiJsonwebtokens,
-    SiN8N 
-} from "react-icons/si";
+    SiN8N
 } from "react-icons/si";
 import { FaJava, FaCode } from "react-icons/fa";
 
@@ -57,7 +56,7 @@ const SKILLS = [
             { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
             { name: "Tailwind", icon: SiTailwindcss, color: "#38B2AC" },
             { name: "Express", icon: SiExpress, color: "#ffffff" },
-            { name: "JavaScript", icon: SiJavascript, color: "#f2cb1eff"},
+            { name: "JavaScript", icon: SiJavascript, color: "#f2cb1eff" },
         ],
     },
 ];
@@ -117,10 +116,10 @@ const TechMarquee = () => {
                 transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
                 className="flex whitespace-nowrap gap-10 text-8xl font-black text-white"
             >
-                {["REACT", "NEXT.JS", "NODE", "TYPESCRIPT", "PYTHON", "JAVA", "SQL", "API REST"].map((text, i) => (
+                {["REACT", "NEXT.JS", "NODE", "TYPESCRIPT", "JAVA", "SQL", "API REST", "C#"].map((text, i) => (
                     <span key={i}>{text}</span>
                 ))}
-                {["REACT", "NEXT.JS", "NODE", "TYPESCRIPT", "PYTHON", "AWS", "JAVA", "DOCKER"].map((text, i) => (
+                {["REACT", "NEXT.JS", "NODE", "TYPESCRIPT", "AWS", "JAVA", "DOCKER", ".NET"].map((text, i) => (
                     <span key={i + 10}>{text}</span>
                 ))}
             </motion.div>
@@ -165,7 +164,7 @@ export const SkillsSection = () => {
                         transition={{ delay: 0.2 }}
                         className="text-gray-400 max-w-2xl mx-auto text-lg"
                     >
-                        Tecnologias que utilizo no desenvolvimento de sistemas, com foco principal em backend e visão full-cycle..
+                        Tecnologias que utilizo no desenvolvimento de sistemas, com foco principal em backend e visão full-cycle.
                     </motion.p>
                 </div>
 
