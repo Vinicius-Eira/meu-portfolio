@@ -15,7 +15,11 @@ import {
     SiGit,
     SiJavascript,
     SiPrisma,
-    SiMongodb
+    SiMongodb,
+    SiDotne,
+    SiJsonwebtokens,
+    SiN8N 
+} from "react-icons/si";
 } from "react-icons/si";
 import { FaJava, FaCode } from "react-icons/fa";
 
@@ -28,6 +32,7 @@ const SKILLS = [
             { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
             { name: "Java", icon: FaJava, color: "#007396" },
             { name: "Spring", icon: SiSpring, color: "#6DB33F" },
+            { name: ".NET", icon: SiDotnet, color: "#512BD4" },
         ],
     },
     {
@@ -39,6 +44,7 @@ const SKILLS = [
             { name: "Prisma", icon: SiPrisma, color: "#ffffff" },
             { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
             { name: "Docker", icon: SiDocker, color: "#2496ED" },
+            { name: "N8n", icon: SiN8N, color: "#FF6D5A" },
         ],
     },
     {
