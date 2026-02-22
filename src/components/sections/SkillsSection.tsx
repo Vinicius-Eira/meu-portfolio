@@ -16,7 +16,7 @@ import {
     SiJavascript,
     SiPrisma,
     SiMongodb,
-    SiDotne,
+    SiDotnet,
     SiJsonwebtokens,
     SiN8N 
 } from "react-icons/si";
