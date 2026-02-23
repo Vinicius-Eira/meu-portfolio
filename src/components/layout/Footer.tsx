@@ -47,7 +47,7 @@ export const Footer = () => {
                 <div className="flex flex-col md:flex-row items-center justify-between gap-6 pt-8 border-t border-gray-800/50">
 
                     <p className="text-gray-500 text-sm font-mono text-center md:text-left">
-                        &copy; {new Date().getFullYear()} Vinícius Eira. Feito com Next.js & Tailwind.
+                        &copy; {new Date().getFullYear()} Vinícius Eira.
                     </p>
 
                     <button
