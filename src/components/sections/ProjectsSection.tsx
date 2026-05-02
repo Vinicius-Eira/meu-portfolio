@@ -8,6 +8,17 @@ import { FiGithub, FiExternalLink, FiArrowRight } from "react-icons/fi";
 const PROJECTS = [
     {
         id: "01",
+        title: "Booklyo",
+        subtitle: "SaaS Multi-tenant & Gestão de Negócios",
+        description:
+            "Plataforma completa para profissionais independentes (Personais e Barbeiros). Oferece painel executivo com métricas financeiras em tempo real (MRR, Ticket Médio), relatórios automatizados em PDF, e um motor inteligente de agendamentos que previne conflitos de horários.",
+        tags: ["Next.js", "TypeScript", "Node.js", "Prisma"],
+        image: "/images/booklyo.png", // Certifique-se de adicionar essa imagem na sua pasta public/images
+        links: { github: "https://github.com/Vinicius-Eira/booklyo_frontend", live: "https://seu-link-do-booklyo.vercel.app/" }, // Lembre de colocar o link real do site aqui
+        color: "from-amber-500 to-orange-400", 
+    },
+    {
+        id: "02",
         title: "CarCheck",
         subtitle: "Automotivo & Inteligência Artificial",
         description:
@@ -18,7 +29,7 @@ const PROJECTS = [
         color: "from-blue-600 to-cyan-500", 
     },
     {
-        id: "02",
+        id: "03",
         title: "Saldo +",
         subtitle: "Fintech & Marketplace",
         description:
@@ -97,7 +108,7 @@ const ProjectRow = ({ project, index }: { project: any; index: number }) => {
                                 href={project.links.live}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="group/btn flex items-center gap-2 text-white font-semibold border-b border-white/30 pb-1 hover:border-white transition-all hover:text-blue-400 hover:border-blue-400"
+                                className="group/btn flex items-center gap-2 text-white font-semibold border-b border-white/30 pb-1 hover:border-white transition-all hover:text-amber-400 hover:border-amber-400"
                             >
                                 <FiExternalLink /> Ver Projeto
                                 <FiArrowRight className="transition-transform group-hover/btn:translate-x-1" />
@@ -140,7 +151,7 @@ export const ProjectsSection = () => {
                         initial={{ scaleX: 0 }}
                         whileInView={{ scaleX: 1 }}
                         viewport={{ once: true }}
-                        className="w-24 h-1 bg-blue-600 mx-auto rounded-full"
+                        className="w-24 h-1 bg-amber-500 mx-auto rounded-full"
                     />
                 </div>
 
