@@ -62,13 +62,11 @@ const ProjectRow = ({ project, index }: { project: any; index: number }) => {
             <div className="w-full lg:w-3/5 group relative">
                 <div className={`absolute -inset-4 bg-gradient-to-r ${project.color} opacity-20 blur-2xl group-hover:opacity-40 transition-opacity duration-700 rounded-[2rem]`} />
 
-                {/* AQUI ESTÁ A MÁGICA: aspect-video no lugar de alturas fixas */}
                 <div className="relative aspect-video w-full overflow-hidden rounded-2xl border border-white/10 shadow-2xl bg-[#0a0a0a]">
                     <Image
                         src={project.image}
                         alt={project.title}
                         fill
-                        {/* object-contain garante que não vai cortar nada */}
                         className="object-contain transition-transform duration-700 group-hover:scale-105 group-hover:rotate-1"
                         sizes="(max-width: 768px) 100vw, 60vw"
                     />
